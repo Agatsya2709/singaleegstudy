@@ -1,0 +1,19 @@
+# Local Python tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+
+# EEG recordings, derived matrices, training checkpoints, and local outputs
+eeg_hybrid_study/data/raw_edf/
+eeg_hybrid_study/data/processed/
+eeg_hybrid_study/results/
+*.pt
+*.pth
+*.npy
+
+# Local documents and archives
+*.zip
+*.pdf

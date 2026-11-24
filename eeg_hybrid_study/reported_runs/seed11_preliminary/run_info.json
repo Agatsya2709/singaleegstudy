@@ -1,0 +1,53 @@
+{
+  "data_dir": "C:\\Users\\Hp\\OneDrive\\Documents\\New project\\single_eeg_study\\eeg_hybrid_study\\data\\processed\\study_s12_fists_feet",
+  "results_dir": "C:\\Users\\Hp\\OneDrive\\Documents\\New project\\single_eeg_study\\eeg_hybrid_study\\results\\clean_seed11",
+  "n_channels": 64,
+  "n_times": 128,
+  "n_classes": 2,
+  "graph_source": "electrode_positions",
+  "models": [
+    "cnn",
+    "eegnet",
+    "lstm",
+    "cnn_lstm",
+    "gcn_hybrid",
+    "gat_hybrid",
+    "graph_enhanced_cnn"
+  ],
+  "seed": 11,
+  "class_weights": [
+    1.0,
+    1.0
+  ],
+  "graph_mode": "distance",
+  "graph_k": 10,
+  "graph_sigma": 0.65,
+  "scaling_scope": "fit_on_inner_training_fold",
+  "inner_train_samples": 57,
+  "validation_samples": 15,
+  "outer_test_samples": 18,
+  "dataset_meta": {
+    "task": "fists_feet",
+    "class_names": [
+      "both_fists",
+      "both_feet"
+    ],
+    "n_classes": 2,
+    "n_channels": 64,
+    "n_times": 128,
+    "num_samples_total": 90,
+    "num_samples_train": 72,
+    "num_samples_test": 18,
+    "subjects": [
+      1,
+      2
+    ],
+    "test_subjects": null,
+    "runs": [
+      6,
+      10,
+      14
+    ],
+    "scaling_scope": "unscaled_epochs"
+  }
+}

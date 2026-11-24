@@ -1,0 +1,25 @@
+{
+  "num_train_samples": 72,
+  "num_test_samples": 18,
+  "num_features": 8192,
+  "train_test_exact_overlap_count": 0,
+  "train_class_distribution": {
+    "0": 36,
+    "1": 36
+  },
+  "test_class_distribution": {
+    "0": 9,
+    "1": 9
+  },
+  "train_feature_mean_abs": 1.0316372936358675e-05,
+  "test_feature_mean_abs": 1.0925770766334608e-05,
+  "train_subjects": [
+    1,
+    2
+  ],
+  "test_subjects": [
+    1,
+    2
+  ],
+  "subject_overlap_count": 2
+}

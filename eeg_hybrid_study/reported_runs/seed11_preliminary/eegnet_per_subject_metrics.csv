@@ -1,0 +1,3 @@
+test_acc,test_bal_acc,test_f1_macro,test_precision_macro,test_recall_macro,test_mcc,subject_id,n_trials
+0.45454545454545453,0.5,0.3125,0.22727272727272727,0.5,0.0,1,11
+0.5714285714285714,0.5,0.36363636363636365,0.2857142857142857,0.5,0.0,2,7
